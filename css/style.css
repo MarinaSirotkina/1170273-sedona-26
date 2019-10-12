@@ -28,3 +28,15 @@ text-transform: uppercase;
   overflow: hidden;
 }
 
+.index-h1 {
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.index-h2 {
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #333333;
+}
