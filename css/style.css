@@ -91,6 +91,9 @@ a {
   font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
+  width: 470px;
+  margin: 0 auto 30px;
+  text-align: center;
 }
 
 .index-h2 {
@@ -98,6 +101,9 @@ a {
   line-height: 26px;
   text-transform: uppercase;
   color: #333333;
+  width: 520px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .menu-advantages {
@@ -109,11 +115,30 @@ a {
 }
 
 .advantages-section {
-
+padding-top: 58px;
 }
 
 .advantages-section-1 {
+display: flex;
+}
 
+.advantages-text-wrap {
+  width: 400px;
+  background-color: #81b3d2;
+  padding: 42px 51px 45px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.advantages-text-wrap h3 {
+  margin: 0;
+}
+
+.advantages-text-wrap p {
+  margin: 0;
 }
 
 .advantages-section-2 {
