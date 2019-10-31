@@ -12,15 +12,20 @@ header {
   text-transform: uppercase;
 }
 
+
 .site-container {
   position: relative;
-  max-width: 1200px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
 }
 
 /*меню навигации*/
+
+.menu {
+  position: relative;
+}
 
 .menu-navigation {
   font-size: 14px;
@@ -32,6 +37,21 @@ header {
   justify-content: space-around;
 }
 
+.menu-navigation-item {
+  width: 240px;
+  height: 56px;
+  text-align: center;
+}
+
+.menu-navigation-item:nth-child(3) {
+  margin-left: auto;
+}
+
+.menu-navigation a {
+  margin-top: 14px;
+  display: block;
+}
+
 a {
   text-decoration: none;
   color: #000000;
@@ -40,7 +60,8 @@ a {
 .logo-link {
   position: absolute;
   top: 0px;
-  left: 571px;
+  left: 50%;
+  margin-left: -69px;
 }
 
 .visually-hidden {
