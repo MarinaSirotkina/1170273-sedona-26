@@ -75,6 +75,16 @@ a {
   overflow: hidden;
 }
 
+.welcome-section {
+  background-image: url(../img/intro-mask.svg), url(../img/background_photo.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 bottom, 0;
+  height: 508px;
+  padding-bottom: 80px;
+  padding-top: 76px;
+  text-align: center;
+}
+
 /*описание преимуществ Седоны*/
 
 .index-h1 {
