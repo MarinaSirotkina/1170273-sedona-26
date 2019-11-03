@@ -75,6 +75,8 @@ a {
   overflow: hidden;
 }
 
+/*Добро пожаловать в Седону!*/
+
 .welcome-section {
   background-image: url(../img/intro-mask.svg), url(../img/background_photo.jpg);
   background-repeat: no-repeat;
@@ -111,7 +113,21 @@ a {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.menu-advantages li {
+  width: 400px;
+  margin-top: 60px;
+}
+
+.menu-advantages p {
+  width: 70%;
+}
+
+.menu-advantages h3 {
+  margin: 28px -30px;
 }
 
 .advantages-section {
@@ -139,8 +155,31 @@ display: flex;
 
 .advantages-text-wrap p {
   margin: 0;
+  text-transform: uppercase;
 }
 
 .advantages-section-2 {
-
+  display: flex;
 }
+
+.advantages-text-wrap-grey {
+  width: 400px;
+  background-color: #f2f2f2;
+  padding: 43px 82px 49px 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.advantages-text-wrap-grey p {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.advantages-text-wrap-grey h3 {
+  margin: 0;
+}
+
+/*форма поиска гостиниц и карта*/
+
