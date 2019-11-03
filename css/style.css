@@ -183,3 +183,9 @@ display: flex;
 
 /*форма поиска гостиниц и карта*/
 
+.index-h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 55px auto 30px;
+  text-align: center;
+}
