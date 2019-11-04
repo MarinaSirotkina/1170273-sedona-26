@@ -19,6 +19,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
+  box-shadow: 0px 5px 15px 0px rgba(0, 1, 1, 0.2);
 }
 
 /*меню навигации*/
@@ -192,4 +193,43 @@ display: flex;
   text-transform: uppercase;
   margin: 55px auto 30px;
   text-align: center;
+}
+
+/*footer*/
+
+.footer {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 22px 101px 5px 132px;
+}
+
+.footer-href {
+
+}
+
+.footer-buttons {
+  display: flex;
+  list-style-type: none;
+  margin-right: 6px;
+  margin-bottom: 17px;
+}
+
+.button {
+   /* геометрия элемента */
+   width: 46px;
+   height: 48px;
+   /* отступы между кнопками */
+   margin-bottom: 5px;
+   /*центрируем текст кнопки по вертикали 
+   display: flex;
+   justify-content: center;*/
+   /* центрируем текст кнопки по горизонтали */
+   text-align: center;
+   /* чтобы работала геометрия и отступы у тега <a> */
+   display: inline-block;
+   /* убираем обводку у тега <a> */
+   text-decoration: none;
+   background-color: #81b3d2;
+   color: #fff;
 }
