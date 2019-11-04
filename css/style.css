@@ -81,7 +81,7 @@ a {
 .welcome-section {
   background-image: url(../img/intro-mask.svg), url(../img/background_photo.jpg);
   background-repeat: no-repeat;
-  background-position: 0 bottom, 0;
+  background-position: 0 607px, 0;
   height: 508px;
   padding-bottom: 80px;
   padding-top: 76px;
@@ -200,36 +200,103 @@ display: flex;
 .footer {
   list-style-type: none;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 22px 101px 5px 132px;
 }
 
 .footer-href {
-
+font-size: 21px;
+line-height: 26px;
+margin: 0;
+margin-top: 36px;
 }
 
-.footer-buttons {
+.footer-social {
   display: flex;
   list-style-type: none;
+  margin: 0;
+  margin-top: 36px
   margin-right: 6px;
   margin-bottom: 17px;
 }
 
-.button {
-   /* геометрия элемента */
-   width: 46px;
-   height: 48px;
-   /* отступы между кнопками */
-   margin-bottom: 5px;
-   /*центрируем текст кнопки по вертикали 
-   display: flex;
-   justify-content: center;*/
-   /* центрируем текст кнопки по горизонтали */
-   text-align: center;
-   /* чтобы работала геометрия и отступы у тега <a> */
-   display: inline-block;
-   /* убираем обводку у тега <a> */
-   text-decoration: none;
-   background-color: #81b3d2;
-   color: #fff;
+.social-twitter {
+  width: 46px;
+  height: 48px;
+  margin: 0;
+  margin: 36px 6px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #81b3d2;
+  color: #fff;
+  background-image: url("../img/twitter.svg");
+  background-position: 17px;
+  background-repeat: no-repeat;
+}
+
+.social-fb {
+  width: 46px;
+  height: 48px;
+  margin: 0;
+  margin: 36px 6px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #81b3d2;
+  color: #fff;
+  background-image: url("../img/fb-icon.svg");
+  background-position: 15px;
+  background-repeat: no-repeat;
+}
+
+.social-youtube {
+  width: 46px;
+  height: 48px;
+  margin: 0;
+  margin: 36px 6px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #81b3d2;
+  color: #fff;
+  background-image: url("../img/youtube.svg");
+  background-position: 15px;
+  background-repeat: no-repeat;
+}
+
+.footer-html {
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 0;
+  margin: 46px 0 48px;
+}
+
+.button-brown {
+
+}
+
+.input-wrap {
+display: flex;
+align-items: center;
+position: relative;
+}
+
+.input-wrap-full-size {
+
+}
+
+.input-wrap-half-size {
+
+}
+
+.button-calendar {
+  position: absolute;
+  top: 8px;
+  right: 9px;
+}
+
+.popup {
+  width: 568px;
+  padding: 55px;
 }
