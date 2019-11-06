@@ -300,3 +300,52 @@ position: relative;
   width: 568px;
   padding: 55px;
 }
+
+/*декоративные элементы - чекбокс и фильтр*/
+
+.filters {
+  background-image: url("../img/filter_background.png");
+  background-repeat: no-repeat;
+}
+
+.infrastructure {
+display: flex;
+flex-direction: column;
+}
+
+.check {
+  padding-left: 1.2em;
+}
+
+.option{
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.check_input {
+  position: absolute;
+  webkit-appearance: none;
+}
+
+.check_box {
+  webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  webkit-appearance: textfield;
+  background-color: white;
+  webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+}
+
+.label {
+  cursor: default;
+}
